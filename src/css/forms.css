@@ -1,0 +1,99 @@
+.contact_form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: clamp(1.5rem, 2vw, 2rem);
+    font-size: 1.45rem;
+    justify-content: space-evenly;
+    max-width: clamp(1rem, var(--width-1), 50rem);
+    color: var(--light);
+}
+
+.contact_form p {
+    flex: 1;
+    min-width: clamp(10rem, 33vw, 18rem);
+}
+
+.contact_form > .flex {
+    justify-content: space-between;
+    gap: clamp(1.5rem, 2vw, 2rem);
+    flex-flow: row wrap;
+}
+
+.contact_form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    font-weight: 600;
+    line-height: 1.4;
+    font-size: 1.8rem;
+    color: var(--secondary-1);
+}
+
+.contact_form input,
+.contact_form select {
+    height: 4rem;
+}
+
+.contact_form input,
+.contact_form textarea,
+.contact_form select {
+    padding: clamp(0.8rem, 2vw, 1.2rem) clamp(1.2rem, 3vw, 1.5rem);
+    border: unset;
+    font-size: 0.85em;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    font-weight: 500;
+    color: var(--dark);
+    background-size: 100% 100%;
+    background-color: var(--light);
+    border: unset;
+    border-radius: 2rem;
+    box-shadow: 0 1rem 1rem var(--light-2);
+}
+
+input:focus-visible, textarea:focus-visible, select:focus-visible {
+    outline-color: transparent;
+    outline-width: 0.3rem;
+}
+
+textarea {
+    min-width: 100%;
+    width: 100%;
+    max-width: 100%;
+    min-height: 13rem;
+    height: clamp(13rem, 30vw, 15rem);
+    max-height: 35rem;
+}
+
+.contact_form button[type='submit'].main.cta {
+    display: block;
+    margin: 0 auto;
+    font-size: 2.2rem;
+    color: var(--light);
+    cursor: pointer;
+    font-weight: 500;
+    border-bottom-width: 0.7rem;
+    position: relative;
+    line-height: 1;
+    margin-top: 2rem;
+    margin-bottom: unset;
+    font-family: inherit;
+    min-width: 100%;
+    /* box-shadow: unset; */
+    background-image: var(--highlight-gradient);
+}
+
+.contact_form button[type='submit'].disabled {
+    font-weight: 500;
+    pointer-events: none;
+}
+
+body .contact_form button[type='submit'].submitted {
+    background-color: var(--light-1);
+    color: var(--secondary-1);
+    pointer-events: none;
+}

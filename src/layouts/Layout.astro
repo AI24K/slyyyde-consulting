@@ -1,0 +1,39 @@
+---
+const { title, description, keywords, logoAnchorTheme } = Astro.props;
+
+import { SITE_TITLE, SITE_DESCRIPTION, SITE_KEYWORDS } from "../../consts";
+
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import MailBubble from '../components/MailBubble.astro';
+
+import CookieConsentBanner from "../components/CookieConsentBanner.astro";
+import OQVABadge from "../components/OQVABadge.astro";
+---
+
+<!doctype html>
+<html lang="en">
+	<BaseHead 
+	title={title ? title : SITE_TITLE}
+	description={description ? description : SITE_DESCRIPTION}
+	keywords={keywords ? keywords : SITE_KEYWORDS} />
+
+	<body id="home">
+		<!-- Google Tag Manager (noscript) -->
+		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-587VFLN8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		
+		<Header logoAnchorTheme={logoAnchorTheme}/>
+
+		<MailBubble/>
+
+		<slot/>
+
+		<Footer/>
+
+        <CookieConsentBanner/>
+
+		<OQVABadge/>
+	</body>
+</html>

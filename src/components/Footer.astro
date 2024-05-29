@@ -1,0 +1,44 @@
+---
+    import '../css/footer.css'
+
+    import { Image, getImage } from 'astro:assets';
+	import Logo from '../components/svg/Logo.astro';
+
+	import Stripe from './Stripe.astro';
+
+    import Worm from './svg/graphics/Worm.astro';
+---
+
+<footer>
+    <div class="width1">
+        <div class="about">
+            <div class="logo graphic">
+                <Logo/>
+            </div>
+    
+            <p class="tagline">Transform tomorrow’s uncertainties into identifiable opportunities.</p>
+    
+            <p class="legal">Copyright © 2024 psAI Consulting</p>
+        </div>
+    
+        <nav>
+            <a href="/#home">Home </a>
+
+            <a href="/services/">Services</a>
+        
+            <a href="/#why-psai">Why psAI </a>
+        
+            <a href="/#the-psai-edge">The psAI edge</a>
+        
+            <a href="/podcast">Podcast</a>
+        
+            <!-- <a href="/reports">Reports</a> -->
+        
+            <button type="button" class="contact_bt">Contact us</button>
+        </nav>
+
+        <!-- <div class="contact"></div> -->
+    </div>
+</footer>
+
+<Stripe type="footer"/>

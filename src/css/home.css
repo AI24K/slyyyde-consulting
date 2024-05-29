@@ -1,0 +1,623 @@
+body::before {
+    background-image: url(/svg/light-noise-bg.svg), linear-gradient(-30deg, var(--primary), var(--secondary));
+}
+
+
+section {
+    scroll-margin-top: calc(var(--header-height) + 3vmin);
+}
+
+p {
+    line-height: 1.5;
+}
+
+section:last-of-type {
+    margin-bottom: 20rem;
+}
+
+section + hr {
+    margin: clamp(4rem, 40vw, 16rem) auto clamp(4rem, 40vw, 16rem);
+    width: var(--width-1);
+    height: 0.1rem;
+    background-color: var(--light-1);
+}
+
+.intro .waves {
+    width: clamp(10rem, 50vw, 80rem);
+    position: absolute;
+    transform: translateY(-33%);
+}
+
+.intro .waves svg {
+}
+
+.intro > .ctnr .logo {
+    display: none;
+}
+
+.intro .ticker {
+    display: block;
+    font-size: clamp(2rem, 5vmin, 2.8rem);
+    font-weight: 650;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.intro .ticker span:not(:first-child) {
+    position: absolute;
+}
+
+.intro .ticker a {
+    color: var(--secondary-3);
+    font-weight: 500;
+    width: fit-content;
+}
+
+.intro .ticker span {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.8s ease, opacity 1.6s ease;
+    -webkit-transition: transform 0.8s ease, opacity 1.6s ease;
+    -moz-transition: transform 0.8s ease, opacity 1.6s ease;
+    -ms-transition: transform 0.8s ease, opacity 1.6s ease;
+    -o-transition: transform 0.8s ease, opacity 1.6s ease;
+    max-width: clamp(30rem, 78vw, 110rem);
+}
+
+.intro .ticker span.active {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    opacity: 1;
+}
+
+.intro .ticker .flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.intro h1 {
+    font-size: clamp(2rem, 9.1vmin, 6.5rem);
+    font-weight: 700;
+    text-align: center;
+    margin-inline: auto;
+    width: clamp(1rem, 87vw, 105rem);
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro h1 b, .intro h1 strong {
+    font-weight: inherit;
+    color: #604fcd;
+    background-image: var(--highlight-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+    text-shadow: 0px 0px #00000000;
+}
+
+.intro h2 {
+    font-size: clamp(1.6rem, 4.6vmin, 2.6rem);
+    text-align: center;
+    width: clamp(10rem, 75vw, 97rem);
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: var(--secondary-1);
+}
+
+.intro h2 b, .intro h2 strong {
+    font-weight: 600;
+}
+
+.intro .corner.graphic {
+    display: none;
+}
+
+.intro .corner.graphic .pulse {
+    transform-origin: top left;
+}
+
+.intro .cta_ctnr.flex {
+    flex-flow: row wrap;
+    gap: clamp(1rem, 5vw, 2rem);
+    max-width: 88vw;
+    justify-content: center;
+}
+
+.intro .waves .pulse {
+    transform-origin: 60% 60%;
+}
+
+.graphic_cta .pulse {
+    transform-origin: center;
+}
+
+#why-psai .g4 .pulse {
+    transform-origin: 60% 70%;
+}
+
+#the-ai-challenge .corner.graphic {
+    position: absolute;
+    right: 0;
+    width: clamp(1rem, 35vw, 30rem);
+    z-index: -2;
+    transform: translateY(calc(clamp(1rem, 30vw, 35rem) * -1));
+    -webkit-transform: translateY(calc(clamp(1rem, 30vw, 35rem) * -1));
+    -moz-transform: translateY(calc(clamp(1rem, 30vw, 35rem) * -1));
+    -ms-transform: translateY(calc(clamp(1rem, 30vw, 35rem) * -1));
+    -o-transform: translateY(calc(clamp(1rem, 30vw, 35rem) * -1));
+}
+
+#the-ai-challenge .corner.graphic .pulse {
+    transform-origin: center right;
+}
+
+
+
+
+
+
+
+section p b, section p strong {
+    font-weight: 550;
+    color: var(--secondary-1);
+}
+
+.g1 {
+    width: clamp(10rem, 40vw, 25rem);
+    position: absolute;
+    left: 2rem;
+    top: 0;
+}
+
+
+
+
+
+
+
+
+.default1#the-psai-edge .list .item {
+    padding: clamp(3rem, 5vw, 4rem);
+    border: 0.1rem solid var(--light);
+}
+
+#the-psai-edge .item {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    gap: clamp(0.5rem, 4vw, 1.5rem);
+}
+
+#the-psai-edge .content {
+    flex: 1;
+    min-width: clamp(12rem, 60vw, 30rem);
+}
+
+#the-psai-edge .def {
+    font-size: clamp(1.1rem, 3.5vw, 1.5rem);
+    color: var(--secondary-3);
+    font-weight: 450;
+    max-width: 22rem;
+}
+
+#the-psai-edge a .content p {
+    margin-top: 0;
+}
+
+#the-psai-edge a .learn_more {
+    font-size: clamp(1rem, 4vw, 1.6rem);
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid var(--light);
+    border-radius: 0.4rem;
+    transition: background-color 0.3s ease;
+    -webkit-transition: background-color 0.3s ease;
+    -moz-transition: background-color 0.3s ease;
+    -ms-transition: background-color 0.3s ease;
+    -o-transition: background-color 0.3s ease;
+    color: var(--secondary-1);
+    font-weight: 600;
+    background-color: var(--light);
+    margin-top: 1rem;
+    display: block;
+}
+
+#the-psai-edge a .flex.heading {
+    gap: 2rem;
+    align-items: center;
+}
+
+#the-psai-edge a .learn_more:hover {
+    background-color: var(--light-1);
+    transition: background-color 0.1s ease;
+    -webkit-transition: background-color 0.1s ease;
+    -moz-transition: background-color 0.1s ease;
+    -ms-transition: background-color 0.1s ease;
+    -o-transition: background-color 0.1s ease;
+}
+
+#the-psai-edge .item h3 {
+    margin-block: 0 0.4rem;
+}
+
+#the-psai-edge .item svg {
+    width: 5rem;
+}
+
+.default1 .list .item.psai_define_style h3,
+.default1 .list .item.psai_define_style p {
+    font-weight: 400;
+    color:var(--light);
+}
+
+
+
+
+
+
+
+
+
+
+section.default2 {
+    position: relative;
+}
+
+section.default2 .heading.graphic {
+    position: absolute;
+    width: clamp(1rem, 65vw, 50rem);
+    top: 0;
+}
+
+#why-psai .heading.graphic {
+    transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -moz-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+}
+
+#the-team .heading.graphic {
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-55%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+section.default2 .heading.graphic .pulse {
+    transform-origin: 60% 30%;
+}
+
+section.default2 > .content {
+    width: var(--width-1);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+section.default2 h2  {
+    font-size: clamp(2rem, 11vw, 6rem);
+    color: var(--secondary-1);
+    text-align: center;
+    font-weight: 700;
+}
+
+section.default2 h2 + p  {
+    font-size: clamp(1.6rem, 4vw, 2.2rem);
+    max-width: 90rem;
+    text-align: center;
+}
+
+.default2 .box_ctnr {
+    display: flex;
+    flex-flow: row wrap;
+    gap: clamp(1.6rem, 2vw, 2rem);
+    margin-block: 2rem 3rem;
+}
+
+.default2 .box_ctnr .box {
+    min-width: clamp(10rem, 85vw, 30rem);
+    background-color: var(--light-1);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    box-sizing: border-box;
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+    text-align: center;
+    align-items: center;
+    border: 0.1rem solid var(--light-1);
+    transition: background-color 0.4s ease;
+    -webkit-transition: background-color 0.4s ease;
+    -moz-transition: background-color 0.4s ease;
+    -ms-transition: background-color 0.4s ease;
+    -o-transition: background-color 0.4s ease;
+}
+
+.default2 .box_ctnr .box:hover {
+    background-color: var(--light);
+    transition: background-color 0.05s ease;
+    -webkit-transition: background-color 0.05s ease;
+    -moz-transition: background-color 0.05s ease;
+    -ms-transition: background-color 0.05s ease;
+    -o-transition: background-color 0.05s ease;
+}
+
+.default2 .box_ctnr .box h3 {
+    font-size: clamp(1.6rem, 6vw, 2.6rem);
+    color: var(--secondary-1);
+    font-weight: 700;
+}
+
+.default2 .box_ctnr .box p {
+    font-size: clamp(1.2rem, 4vw, 1.6rem);
+}
+
+.default2 .box_ctnr .box svg {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.team_ctnr {
+    display: flex;
+    flex-flow: row wrap;
+    gap: clamp(1rem, 6vw, 4rem);
+    margin-block: 3rem;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.team_ctnr .profile {
+    display: flex;
+    flex-direction: column;
+    min-width: clamp(10rem, var(--pace), 35rem);
+    max-width: clamp(10rem, var(--pace), 38.1rem);
+    flex: 1;
+    background-color: rgb(214 219 255 / 25%);
+    padding: clamp(1.5rem, 2vw, 2rem) clamp(1.5rem, 2vw, 2rem);
+    box-sizing: border-box;
+    height: fit-content;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    transition: border-color 0.4s ease, transform 0.1s, background-color 0.4s ease, margin-bottom 0.5s 0.5s ease;
+    -webkit-transition: border-color 0.4s ease, transform 0.1s, background-color 0.4s ease, margin-bottom 0.5s 0.5s ease;
+    -moz-transition: border-color 0.4s ease, transform 0.1s, background-color 0.4s ease, margin-bottom 0.5s 0.5s ease;
+    -ms-transition: border-color 0.4s ease, transform 0.1s, background-color 0.4s ease, margin-bottom 0.5s 0.5s ease;
+    -o-transition: border-color 0.4s ease, transform 0.1s, background-color 0.4s ease, margin-bottom 0.5s 0.5s ease;
+    border: 0.1rem solid transparent;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+.team_ctnr .profile:hover {
+    border-color: var(--light-1);
+    background-color: rgb(214 219 255 / 50%);
+    transition: border-color 0.1s ease, transform 0.2s ease, background-color 0.2s ease, margin-bottom 0s ease;
+    -webkit-transition: border-color 0.1s ease, transform 0.2s ease, background-color 0.2s ease, margin-bottom 0s ease;
+    -moz-transition: border-color 0.1s ease, transform 0.2s ease, background-color 0.2s ease, margin-bottom 0s ease;
+    -ms-transition: border-color 0.1s ease, transform 0.2s ease, background-color 0.2s ease, margin-bottom 0s ease;
+    -o-transition: border-color 0.1s ease, transform 0.2s ease, background-color 0.2s ease, margin-bottom 0s ease;
+    transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    background-color:var(--light-1);
+}
+
+.team_ctnr .profile .flex {
+    gap: clamp(1rem, 6vw, 2rem);
+    align-items: center;
+    position: relative;
+}
+
+.team_ctnr .profile img {
+    width: clamp(8rem, 23vmin, 11rem);
+    background-color: var(--light-1);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+}
+
+.team_ctnr .profile .worm {
+    color: var(--light);
+    width: 5rem;
+    position: absolute;
+    bottom: -0.4rem;
+    left: 0;
+}
+
+.team_ctnr .profile .name {
+    font-weight: 700;
+    font-size: clamp(1rem, 6vw, 2.4rem);
+    line-height: 1;
+    margin-bottom: 0.4rem;
+    user-select: none;
+}
+
+.team_ctnr .profile .role {
+    font-size: clamp(1rem, 4vw, 1.7rem);
+    line-height: 1.1;
+    font-weight: 600;
+    max-width: 22rem;
+    color: var(--secondary-1);
+    user-select: none;
+}
+
+.team_ctnr .profile .description {
+    font-size: 1.6rem;
+    font-weight: 500;
+    max-height: 0;
+    overflow: hidden;
+    transition:max-height 0.6s ease;
+    -webkit-transition:max-height 0.6s ease;
+    -moz-transition:max-height 0.6s ease;
+    -ms-transition:max-height 0.6s ease;
+    -o-transition:max-height 0.6s ease;
+}
+
+.team_ctnr .profile .description .ctnr {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 2rem 1rem 1rem;
+}
+
+.team_ctnr .profile:hover .description {
+    max-height: 30rem;
+}
+
+.team_ctnr .profile .description p {
+    line-height: 1.15;
+}
+
+.team_ctnr .profile .description b {
+    font-weight: 700;
+}
+
+.team_ctnr .profile p {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:850px) {
+
+    section.intro {
+        margin-top: 11rem;
+    }
+
+    .intro .waves {
+        transform: unset;
+        -webkit-transform: unset;
+        -moz-transform: unset;
+        -ms-transform: unset;
+        -o-transform: unset;
+    }
+
+    .intro .logo {
+        width: clamp(10rem, 45vw, var(--max-width));
+    }
+
+    /* .intro > .ctnr .logo {
+        display: initial;
+        width: 24rem;
+    } */
+
+    .intro h1 {
+        z-index: 3;
+        width: clamp(1rem, var(--pace), var(--max-width));
+        font-size: clamp(5rem, 8vw, 11.5rem);
+        line-height: 1.1;
+    }
+
+    .intro .corner.graphic {
+        width: clamp(1rem, 19vw, 110rem);
+        position: absolute;
+        top: -12rem;
+        left: 0;
+        display: block;
+    }
+
+    #the-ai-challenge .corner.graphic {
+        width: clamp(1rem, 20vw, 50rem);
+    }
+
+    .team_ctnr {
+        gap: 4rem;
+    }
+
+    .team_ctnr .profile {
+        transition: border-color 0.4s ease, transform 0.8s 0.2s, margin-bottom 0.2s ease, background-color 0.4s ease;
+        -webkit-transition: border-color 0.4s ease, transform 0.8s 0.2s, margin-bottom 0.2s ease, background-color 0.4s ease;
+        -moz-transition: border-color 0.4s ease, transform 0.8s 0.2s, margin-bottom 0.2s ease, background-color 0.4s ease;
+        -ms-transition: border-color 0.4s ease, transform 0.8s 0.2s, margin-bottom 0.2s ease, background-color 0.4s ease;
+        -o-transition: border-color 0.4s ease, transform 0.8s 0.2s, margin-bottom 0.2s ease, background-color 0.4s ease;
+    }
+
+    .team_ctnr .profile:hover {
+        z-index: 8;
+        margin-bottom: -15rem;
+        transition: margin-bottom 0.2s 0.15s ease, transform 0.4s, background-color 0.2s ease;
+        -webkit-transition: margin-bottom 0.2s 0.15s ease, transform 0.4s, background-color 0.2s ease;
+        -moz-transition: margin-bottom 0.2s 0.15s ease, transform 0.4s, background-color 0.2s ease;
+        -ms-transition: margin-bottom 0.2s 0.15s ease, transform 0.4s, background-color 0.2s ease;
+        -o-transition: margin-bottom 0.2s 0.15s ease, transform 0.4s, background-color 0.2s ease;
+    }
+
+    .team_ctnr .profile .description {
+        transition:max-height 0.2s ease;
+        -webkit-transition:max-height 0.2s ease;
+        -moz-transition:max-height 0.2s ease;
+        -ms-transition:max-height 0.2s ease;
+        -o-transition:max-height 0.2s ease;
+    }
+
+    .team_ctnr .profile:hover .description {
+        max-height: 15rem;
+        transition:max-height 0.8s 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        -webkit-transition:max-height 0.8s 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        -moz-transition:max-height 0.8s 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        -ms-transition:max-height 0.8s 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        -o-transition:max-height 0.8s 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}

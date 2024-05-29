@@ -1,0 +1,108 @@
+---
+import '../../css/services.css'
+import Layout from "../../layouts/Layout.astro";
+import DefineSection from "../../components/services/DefineSection.astro";
+import ServiceCards from '../../components/services/ServiceCards.astro'
+
+import Worm from '../../components/svg/graphics/Worm.astro';
+---
+
+<Layout logoAnchorTheme="light" title="psAI Define | Tailoring AI to Your Business Identity">
+    <a href="/services/" class="back">Return to Services</a>
+
+    <main>
+        <DefineSection/>
+        
+        <section id="learn-more" class="default1 bullets">
+            <div class="content">
+                <h2>Transforming Your Communication<Worm/></h2>
+    
+                <p><strong>The primary aim of psAI Define is to ensure efficient and effective communication between human workers and the Artificial Intelligence (AI) infrastructure.</strong> This is crucial because the potential of AI can only be fully realised when there is a clear understanding and seamless interaction between humans and AI systems.</p>
+
+                <p>To achieve this, <strong>Define focuses on the establishment and continuous maintenance of a Unified Organisational Language.</strong> This language serves as a common ground for interaction, ensuring that both humans and AI can understand and respond to each other without ambiguity or loss of meaning. This approach not only <b>improves the efficiency of AI integration</b> but also enhances the overall decision-making processes within the organisation by ensuring that all parties are aligned and informed.</p>
+    
+                <p>psAI Define isn't merely an additional tool; it's the foundation for AI implementation. Here's why:</p>
+    
+                <div class="graphic_cta">
+                    <button type="button" class="main cta highlight contact_bt">Contact us</button>
+                </div>
+
+                <article class="details">
+                    <p>Initial Engagement: <b>14 days</b></p>
+                    <p>Price: <b>$75,000</b></p>
+                </article>
+            </div>
+    
+            <ul class="list">
+                <li class="item">
+                    <h3>AI Communication Audit:</h3>
+    
+                    <p>A comprehensive review of the current communication channels and processes between human teams and AI systems. This audit will identify gaps and inefficiencies in the existing communication framework.</p>
+                </li>
+                
+                <li class="item">
+                    <h3>Unified Organisational Language Blueprint:</h3>
+    
+                    <p>Development of a tailored blueprint for establishing a Unified Organisational Language that facilitates clear and efficient communication between human workers and AI. This blueprint will include guidelines, best practices, and actionable steps for implementation.</p>
+                </li>
+                
+                <li class="item">
+                    <h3>Recommendation Report:</h3>
+    
+                    <p>A detailed report providing specific recommendations for enhancing the communication infrastructure to support seamless interaction between human workers and AI, based on the audit findings.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <ServiceCards current="define"/>
+</Layout>
+
+<style>
+    body::before {
+        background-image: url(/svg/dark-noise-bg.svg), linear-gradient(-25deg, var(--secondary-1) -10%, var(--dark) 38%, #0f0917);
+    }
+
+
+    .default1 .content h2 {
+        font-size: clamp(2rem, 9vw, 6rem);
+        color: var(--secondary);
+        font-weight: 500;
+    }
+
+    .default1 {
+        color: var(--light);
+    }
+
+    .default1 .content p {
+        font-size: clamp(1.6rem, 4.2vw, 1.9rem);
+    }
+
+    .default1 .list .item h3 {
+        color: var(--secondary);
+        font-weight: 450;
+    }
+
+    .default1 .list .item p {
+        color: var(--light);
+        font-weight: 400;
+    }
+
+    .default1 .list .item {
+        background-color: var(--dark);
+        border: 0.1rem solid var(--secondary-1);
+    }
+
+    section.intro .title + p {
+        color: #C7B8D0;
+    }
+
+    .details {
+        border-color:var(--secondary-1);
+        box-shadow: 0 2rem 2rem -1.5rem var(--dark-1);
+    }
+
+    .details p b {
+        color: var(--secondary);
+    }
+</style>

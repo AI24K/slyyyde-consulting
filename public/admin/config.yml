@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: main
+
+publish_mode: editorial_workflow
+
+media_folder: "public/images/media"
+public_folder: "/images/media"
+
+collections:
+  - name: "reports"
+    label: "Reports"
+    folder: "src/content/reports"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Report Number", name: "reportNumber", widget: "number", default: 1, min: 0, required: false}
+      - {label: "Document Title", name: "documentTitle", widget: "string", required: false}
+      - {label: "Meta Description", name: "metaDescription", widget: "string", pattern: ['^.{0,155}$', "155 characters maximum"], required: false}
+      - {label: "Heading", name: "heading", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
+      - {label: "Publish Date", name: "pubDate", widget: "datetime", format: "MMM DD YYYY"}
+      - {label: "Body", name: "body", widget: "markdown"}

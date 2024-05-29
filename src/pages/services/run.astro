@@ -1,0 +1,74 @@
+---
+import '../../css/services.css'
+import Layout from "../../layouts/Layout.astro";
+import RunSection from "../../components/services/RunSection.astro";
+
+import Worm from '../../components/svg/graphics/Worm.astro';
+import ServiceCards from '../../components/services/ServiceCards.astro';
+---
+
+<Layout logoAnchorTheme="dark" title="psAI Run | Enhancing Machine Learning Operations">
+    <a href="/services/" class="back">Return to Services</a>
+    
+    <main>
+        <RunSection/>
+        
+        <section id="learn-more" class="default1 bullets">
+            <div class="content">    
+                <h2>Enhancing Efficiency in Machine Learning Operations<Worm/></h2>
+    
+                <p><strong>psAI Run focuses on the modernisation and harmonisation of the organisation's technology stack to support AI integration.</strong> It recognises the pivotal role that current technology plays in enabling or hindering the adoption of advanced AI capabilities.</p>
+    
+                <p>To enable this psAI Run advocates for the establishment and continuous maintenance of a <b>Unified Technology Framework</b>. This framework is intended to facilitate seamless, efficient, and effective integration of AI into both existing and future technology stacks. By ensuring that the tech stack is not only up-to-date but also cohesive and compatible with AI advancements, <strong>psAI Run enables organisations to stay at the forefront of innovation</strong>, adapting to new technologies and methodologies that drive growth and competitiveness.</p>
+    
+                <div class="graphic_cta">
+                    <button type="button" class="main cta highlight contact_bt">Contact us</button>
+                </div>
+
+                <article class="details">
+                    <p>Initial Engagement: <b>14 days</b></p>
+                    <p>Price: <b>$75,000</b></p>
+                </article>
+            </div>
+    
+            <ul class="list">
+                <li class="item">
+                    <h3>Technology Stack Review:</h3>
+    
+                    <p>A thorough analysis of the existing technology infrastructure, identifying areas that require modernisation or harmonisation to support AI integration.</p>
+                </li>
+                
+                <li class="item">
+                    <h3>Unified Technology Framework Proposal:</h3>
+    
+                    <p>A proposal for a Unified Technology Framework that ensures the technology stack is not only current but also cohesive and capable of seamlessly integrating AI capabilities.</p>
+                </li>
+                
+                <li class="item">
+                    <h3>Integration Strategy Document:</h3>
+    
+                    <p>A comprehensive strategy document detailing the approach for incorporating AI into the existing and future technology stack, including recommendations for technology adoption, upgrades, and integration best practices.</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <ServiceCards current="run"/>
+</Layout>
+
+<style>
+    body::before {
+        background-image: url(/svg/light-noise-bg.svg), linear-gradient(145deg, #ffa465, var(--secondary));
+        background-size: 26rem, cover;
+    }
+
+    .details {
+        border-color: var(--light);
+        box-shadow: -6rem 2rem 8rem -2rem var(--light-2);
+    }
+
+    .details p b {
+        color: inherit;
+        font-weight: 600;
+    }
+</style>
