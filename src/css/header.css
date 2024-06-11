@@ -250,24 +250,24 @@ header .subnav a .text b, header .subnav a .text strong {
 /* SERVICE STYLES */
 
 
-.subnav a.slyyydeAI_define_style {
+.subnav a.psaiAI_define_style {
     border-color: var(--secondary-1);
 }
 
-.subnav a.slyyydeAI_define_style .title {
+.subnav a.psaiAI_define_style .title {
     font-weight: 400;
 }
 
-.subnav a.slyyydeAI_define_style .text {
+.subnav a.psaiAI_define_style .text {
     
 }
 
-/* .subnav a.slyyydeAI_define_style .def {
+/* .subnav a.psaiAI_define_style .def {
     color: var(--secondary);
 } */
 
-header .subnav a.slyyydeAI_define_style .text b,
-header .subnav a.slyyydeAI_define_style .text strong {
+header .subnav a.psaiAI_define_style .text b,
+header .subnav a.psaiAI_define_style .text strong {
     font-weight: inherit;
     color: var(--secondary);
 }

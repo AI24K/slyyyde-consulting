@@ -12,7 +12,7 @@
 
 ## Executive Summary
 
-In the wake of rapidly advancing artificial intelligence (AI) technologies, businesses across sectors are grappling with the dual imperative of leveraging AI for growth while safeguarding proprietary data against leaks. This report, inspired by prevalent concerns among business leaders, specifically addresses the apprehensions regarding potential data leaks through the use of <b>Generative Pre-trained Transformers (GPT)</b>. Drawing upon the slyyydeAI framework, we embark on a detailed exploration of strategies to mitigate risks, enhance data security, and ensure AI implementations align with best-in-class market practices.
+In the wake of rapidly advancing artificial intelligence (AI) technologies, businesses across sectors are grappling with the dual imperative of leveraging AI for growth while safeguarding proprietary data against leaks. This report, inspired by prevalent concerns among business leaders, specifically addresses the apprehensions regarding potential data leaks through the use of <b>Generative Pre-trained Transformers (GPT)</b>. Drawing upon the psaiAI framework, we embark on a detailed exploration of strategies to mitigate risks, enhance data security, and ensure AI implementations align with best-in-class market practices.
 
 ## Introduction
 
@@ -117,4 +117,4 @@ The statistics and facts about data breaches and code vulnerabilities highlight 
 
 ## Conclusion
 
-In the digital era, the implementation of AI technologies like GPT presents both opportunities and challenges. As businesses strive to harness the power of AI, the importance of a comprehensive strategy to safeguard proprietary data cannot be overstated. By adhering to the slyyydeAI framework—defining a unified organisational language, aligning AI implementations with market best practices, optimising data infrastructure, and ensuring code security—businesses can mitigate the risk of data leaks and secure their competitive edge. This proactive approach not only protects valuable data assets but also enables organizations to leverage AI technologies confidently and responsibly.
+In the digital era, the implementation of AI technologies like GPT presents both opportunities and challenges. As businesses strive to harness the power of AI, the importance of a comprehensive strategy to safeguard proprietary data cannot be overstated. By adhering to the psaiAI framework—defining a unified organisational language, aligning AI implementations with market best practices, optimising data infrastructure, and ensuring code security—businesses can mitigate the risk of data leaks and secure their competitive edge. This proactive approach not only protects valuable data assets but also enables organizations to leverage AI technologies confidently and responsibly.

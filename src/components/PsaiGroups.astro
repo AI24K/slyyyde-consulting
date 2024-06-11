@@ -1,7 +1,7 @@
 ---
 import LogoGroups from "./svg/LogoGroups.astro";
 
-import '../css/slyyydeAI-groups.css'
+import '../css/psaiAI-groups.css'
 
 const { logoAnchorTheme } = Astro.props;
 
@@ -12,7 +12,7 @@ const { logoAnchorTheme } = Astro.props;
 		<LogoGroups group="consulting"/>
 	</div>
 
-	<div class="slyyydeAI_groups_nav">
+	<div class="psaiAI_groups_nav">
 		<a href="#" class="">
 			<LogoGroups group="consulting"/>
 		</a>
@@ -38,13 +38,13 @@ const { logoAnchorTheme } = Astro.props;
 		</a>
 	</div>
 	
-	<div class="slyyydeAI_groups_bg"></div>
+	<div class="psaiAI_groups_bg"></div>
 </div>
 
 <script is:inline>
 	const logoAnchor = document.querySelector('.logo_anchor')
-	const groupsNav = document.querySelector('.slyyydeAI_groups_nav')
-	const groupsBg = document.querySelector('.slyyydeAI_groups_bg')
+	const groupsNav = document.querySelector('.psaiAI_groups_nav')
+	const groupsBg = document.querySelector('.psaiAI_groups_bg')
 
 	logoAnchor.addEventListener('mouseover', function() {
 		groupsNav.classList.add('show')

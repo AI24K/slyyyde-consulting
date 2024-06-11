@@ -495,66 +495,66 @@ section.default1 .cta {
 /* SERVICES */
 
 
-a.slyyydeAI_define_style path {
+a.psaiAI_define_style path {
     stroke: var(--secondary);
 }
-a.slyyydeAI_align_style path {
+a.psaiAI_align_style path {
     stroke: var(--secondary-3);
 }
-a.slyyydeAI_flow_style path {
+a.psaiAI_flow_style path {
     stroke: #09cf9f;
 }
-a.slyyydeAI_run_style path {
+a.psaiAI_run_style path {
     stroke: var(--secondary-1);
 }
 
 
-.slyyydeAI_define_style {
+.psaiAI_define_style {
     background-color: var(--dark-1);
     color: var(--light);
     background-image: url(/svg/dark-noise-bg.svg), linear-gradient(-25deg, var(--secondary-1) -10%, var(--dark) 38%, #0f0917);
     background-size: 26rem, cover;
-} .slyyydeAI_define_style .def {
+} .psaiAI_define_style .def {
     color: var(--secondary);
     font-weight: 550;
 }
 
 
 
-.slyyydeAI_align_style {
+.psaiAI_align_style {
     color: var(--dark);
     background-image: url(/svg/light-noise-bg.svg), linear-gradient(150deg, #f6edff, #dcb9ff 38%);
     background-size: 26rem, cover;
-} .slyyydeAI_align_style .def {
+} .psaiAI_align_style .def {
     color: var(--secondary-1);
     font-weight: 650;
-} .slyyydeAI_align_style .title {
+} .psaiAI_align_style .title {
     font-weight: 600;
 }
 
 
 
-.slyyydeAI_flow_style {
+.psaiAI_flow_style {
     color: var(--dark);
     background-image: url(/svg/light-noise-bg.svg), linear-gradient(195deg, #edfffb, #87dbcb 62%);
     background-size: 26rem, cover;
-} .slyyydeAI_flow_style .def {
+} .psaiAI_flow_style .def {
     font-weight: 650;
     color: var(--dark-2);    
-} .slyyydeAI_flow_style .title {
+} .psaiAI_flow_style .title {
     font-weight: 600;
 }
 
 
 
-.slyyydeAI_run_style {
+.psaiAI_run_style {
     color: var(--dark);
     background-image: url(/svg/light-noise-bg.svg), linear-gradient(145deg, #ffa465, var(--secondary));
     background-size: 26rem, cover;
-} .slyyydeAI_run_style .def {
+} .psaiAI_run_style .def {
     font-weight: 600;
     color: #452c1b;
-} .slyyydeAI_run_style .title {
+} .psaiAI_run_style .title {
     font-weight: 600;
 }
 
