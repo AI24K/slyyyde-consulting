@@ -143,7 +143,7 @@ section + hr {
     transform-origin: center;
 }
 
-#why-SlyyydeAI .g4 .pulse {
+#why-psAI .g4 .pulse {
     transform-origin: 60% 70%;
 }
 
@@ -188,35 +188,35 @@ section p b, section p strong {
 
 
 
-.default1#the-SlyyydeAI-edge .list .item {
+.default1#the-psAI-edge .list .item {
     padding: clamp(3rem, 5vw, 4rem);
     border: 0.1rem solid var(--light);
 }
 
-#the-SlyyydeAI-edge .item {
+#the-psAI-edge .item {
     display: flex;
     flex-flow: row wrap;
     align-items: flex-start;
     gap: clamp(0.5rem, 4vw, 1.5rem);
 }
 
-#the-SlyyydeAI-edge .content {
+#the-psAI-edge .content {
     flex: 1;
     min-width: clamp(12rem, 60vw, 30rem);
 }
 
-#the-SlyyydeAI-edge .def {
+#the-psAI-edge .def {
     font-size: clamp(1.1rem, 3.5vw, 1.5rem);
     color: var(--secondary-3);
     font-weight: 450;
     max-width: 22rem;
 }
 
-#the-SlyyydeAI-edge a .content p {
+#the-psAI-edge a .content p {
     margin-top: 0;
 }
 
-#the-SlyyydeAI-edge a .learn_more {
+#the-psAI-edge a .learn_more {
     font-size: clamp(1rem, 4vw, 1.6rem);
     width: fit-content;
     padding: 0.5rem 1rem;
@@ -234,12 +234,12 @@ section p b, section p strong {
     display: block;
 }
 
-#the-SlyyydeAI-edge a .flex.heading {
+#the-psAI-edge a .flex.heading {
     gap: 2rem;
     align-items: center;
 }
 
-#the-SlyyydeAI-edge a .learn_more:hover {
+#the-psAI-edge a .learn_more:hover {
     background-color: var(--light-1);
     transition: background-color 0.1s ease;
     -webkit-transition: background-color 0.1s ease;
@@ -248,16 +248,16 @@ section p b, section p strong {
     -o-transition: background-color 0.1s ease;
 }
 
-#the-SlyyydeAI-edge .item h3 {
+#the-psAI-edge .item h3 {
     margin-block: 0 0.4rem;
 }
 
-#the-SlyyydeAI-edge .item svg {
+#the-psAI-edge .item svg {
     width: 5rem;
 }
 
-.default1 .list .item.SlyyydeAI_define_style h3,
-.default1 .list .item.SlyyydeAI_define_style p {
+.default1 .list .item.psAI_define_style h3,
+.default1 .list .item.psAI_define_style p {
     font-weight: 400;
     color:var(--light);
 }
@@ -281,7 +281,7 @@ section.default2 .heading.graphic {
     top: 0;
 }
 
-#why-SlyyydeAI .heading.graphic {
+#why-psAI .heading.graphic {
     transform: scaleY(-1);
     -webkit-transform: scaleY(-1);
     -moz-transform: scaleY(-1);

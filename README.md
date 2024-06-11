@@ -1,5 +1,5 @@
-# SlyyydeAI Consulting
-## https://SlyyydeAI.consulting/
+# psAI Consulting
+## https://psAI.consulting/
 
 ### Test Domain - main
 https://beautiful-toffee-4598bf.netlify.app/
