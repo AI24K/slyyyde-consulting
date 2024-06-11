@@ -118,7 +118,7 @@ section .title b {
     position: relative;
 }
 
-section .title .psAI {
+section .title .slyyydeAI {
     position: absolute;
     bottom: 85%;
     font-size: clamp(1rem, 7vw, 3rem);
@@ -191,7 +191,7 @@ section.define > .ctnr {
     font-weight: 600;
 }
 
-section.define .title .psAI {
+section.define .title .slyyydeAI {
     color: var(--light-1);
 }
 
@@ -252,7 +252,7 @@ section.align .title .name {
     max-width: 73vw;
 }
 
-section.align .title .psAI {
+section.align .title .slyyydeAI {
     color: var(--secondary-1);
     font-weight: 600;
 }
@@ -305,7 +305,7 @@ section.flow .title .name {
     font-weight: 600;
 }
 
-section.flow .title .psAI {
+section.flow .title .slyyydeAI {
     color: #164759;
     font-weight: 600;
 }
@@ -363,7 +363,7 @@ section.run .title .name {
     font-weight: 600;
 }
 
-section.run .title .psAI {
+section.run .title .slyyydeAI {
     color: var(--dark-2);
     font-weight: 600;
 }
